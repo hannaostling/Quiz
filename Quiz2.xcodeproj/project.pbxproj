@@ -13,6 +13,10 @@
 		B50DE9D5203207D7006A8B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50DE9D4203207D7006A8B86 /* Assets.xcassets */; };
 		B50DE9D8203207D7006A8B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50DE9D6203207D7006A8B86 /* LaunchScreen.storyboard */; };
 		B50DE9DB203207D7006A8B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DE9DA203207D7006A8B86 /* main.m */; };
+		B50DE9E320320A27006A8B86 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DE9E220320A27006A8B86 /* Question.m */; };
+		B50DE9E620320A4F006A8B86 /* QuizModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DE9E520320A4F006A8B86 /* QuizModel.m */; };
+		B50DE9E920320AB8006A8B86 /* ShuffleQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DE9E820320AB8006A8B86 /* ShuffleQuestion.m */; };
+		B50DE9EC20320AD6006A8B86 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DE9EB20320AD6006A8B86 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		B50DE9D7203207D7006A8B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50DE9D9203207D7006A8B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B50DE9DA203207D7006A8B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B50DE9E120320A27006A8B86 /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		B50DE9E220320A27006A8B86 /* Question.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		B50DE9E420320A4E006A8B86 /* QuizModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizModel.h; sourceTree = "<group>"; };
+		B50DE9E520320A4F006A8B86 /* QuizModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizModel.m; sourceTree = "<group>"; };
+		B50DE9E720320AB8006A8B86 /* ShuffleQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleQuestion.h; sourceTree = "<group>"; };
+		B50DE9E820320AB8006A8B86 /* ShuffleQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleQuestion.m; sourceTree = "<group>"; };
+		B50DE9EA20320AD6006A8B86 /* ResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		B50DE9EB20320AD6006A8B86 /* ResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,21 @@
 		B50DE9CA203207D7006A8B86 /* Quiz2 */ = {
 			isa = PBXGroup;
 			children = (
-				B50DE9CB203207D7006A8B86 /* AppDelegate.h */,
-				B50DE9CC203207D7006A8B86 /* AppDelegate.m */,
+				B50DE9D1203207D7006A8B86 /* Main.storyboard */,
+				B50DE9D6203207D7006A8B86 /* LaunchScreen.storyboard */,
 				B50DE9CE203207D7006A8B86 /* ViewController.h */,
 				B50DE9CF203207D7006A8B86 /* ViewController.m */,
-				B50DE9D1203207D7006A8B86 /* Main.storyboard */,
+				B50DE9E120320A27006A8B86 /* Question.h */,
+				B50DE9E220320A27006A8B86 /* Question.m */,
+				B50DE9E420320A4E006A8B86 /* QuizModel.h */,
+				B50DE9E520320A4F006A8B86 /* QuizModel.m */,
+				B50DE9E720320AB8006A8B86 /* ShuffleQuestion.h */,
+				B50DE9E820320AB8006A8B86 /* ShuffleQuestion.m */,
+				B50DE9EA20320AD6006A8B86 /* ResultsViewController.h */,
+				B50DE9EB20320AD6006A8B86 /* ResultsViewController.m */,
 				B50DE9D4203207D7006A8B86 /* Assets.xcassets */,
-				B50DE9D6203207D7006A8B86 /* LaunchScreen.storyboard */,
+				B50DE9CB203207D7006A8B86 /* AppDelegate.h */,
+				B50DE9CC203207D7006A8B86 /* AppDelegate.m */,
 				B50DE9D9203207D7006A8B86 /* Info.plist */,
 				B50DE9DA203207D7006A8B86 /* main.m */,
 			);
@@ -143,6 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50DE9D0203207D7006A8B86 /* ViewController.m in Sources */,
+				B50DE9EC20320AD6006A8B86 /* ResultsViewController.m in Sources */,
+				B50DE9E920320AB8006A8B86 /* ShuffleQuestion.m in Sources */,
+				B50DE9E320320A27006A8B86 /* Question.m in Sources */,
+				B50DE9E620320A4F006A8B86 /* QuizModel.m in Sources */,
 				B50DE9DB203207D7006A8B86 /* main.m in Sources */,
 				B50DE9CD203207D7006A8B86 /* AppDelegate.m in Sources */,
 			);

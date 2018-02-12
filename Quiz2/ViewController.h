@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultsViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <NewGameProtocol>
 
 @end
 

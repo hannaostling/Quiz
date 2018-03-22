@@ -70,25 +70,49 @@
 		B50DE9CA203207D7006A8B86 /* Quiz2 */ = {
 			isa = PBXGroup;
 			children = (
-				B50DE9D1203207D7006A8B86 /* Main.storyboard */,
-				B50DE9D6203207D7006A8B86 /* LaunchScreen.storyboard */,
+				B5D2DE7420638CEF001A1220 /* Model */,
+				B5D2DE7520638CF7001A1220 /* View */,
+				B5D2DE7320638CE9001A1220 /* Controller */,
+				B50DE9D4203207D7006A8B86 /* Assets.xcassets */,
+				B50DE9D9203207D7006A8B86 /* Info.plist */,
+			);
+			path = Quiz2;
+			sourceTree = "<group>";
+		};
+		B5D2DE7320638CE9001A1220 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				B50DE9CE203207D7006A8B86 /* ViewController.h */,
 				B50DE9CF203207D7006A8B86 /* ViewController.m */,
 				B50DE9E120320A27006A8B86 /* Question.h */,
 				B50DE9E220320A27006A8B86 /* Question.m */,
-				B50DE9E420320A4E006A8B86 /* QuizModel.h */,
-				B50DE9E520320A4F006A8B86 /* QuizModel.m */,
 				B50DE9E720320AB8006A8B86 /* ShuffleQuestion.h */,
 				B50DE9E820320AB8006A8B86 /* ShuffleQuestion.m */,
 				B50DE9EA20320AD6006A8B86 /* ResultsViewController.h */,
 				B50DE9EB20320AD6006A8B86 /* ResultsViewController.m */,
-				B50DE9D4203207D7006A8B86 /* Assets.xcassets */,
 				B50DE9CB203207D7006A8B86 /* AppDelegate.h */,
 				B50DE9CC203207D7006A8B86 /* AppDelegate.m */,
-				B50DE9D9203207D7006A8B86 /* Info.plist */,
 				B50DE9DA203207D7006A8B86 /* main.m */,
 			);
-			path = Quiz2;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5D2DE7420638CEF001A1220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B50DE9E420320A4E006A8B86 /* QuizModel.h */,
+				B50DE9E520320A4F006A8B86 /* QuizModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D2DE7520638CF7001A1220 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B50DE9D1203207D7006A8B86 /* Main.storyboard */,
+				B50DE9D6203207D7006A8B86 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
